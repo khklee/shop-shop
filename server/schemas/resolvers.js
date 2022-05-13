@@ -82,7 +82,7 @@ const resolvers = {
         payment_method_types: ['card'],
         line_items,
         mode: 'payment',
-        success_url: `${url}/success?session_id={CHECKOUT_SESSION_ID}`,
+        success_url: `${url}/success?session_id={cs_test_b1PJrvWw70RAiUZ6mmmAnVVBSIkcSheqKl7JkbBpdgOBdHv3BqMXDJ7mP6}`,
         cancel_url: `${url}/`
       });
 
